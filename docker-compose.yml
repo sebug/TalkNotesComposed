@@ -8,3 +8,5 @@ services:
   talknotesfront:
     build: ..\TalkNotesFront
     image: talknotesfront
+    ports:
+      - "8081:8081"
