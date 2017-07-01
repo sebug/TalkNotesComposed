@@ -1,0 +1,10 @@
+version: '3'
+services:
+  talknotesback:
+    build: ..\TalkNotesBack
+    image: talknotesback
+
+
+  talknotesfront:
+    build: ..\TalkNotesFront
+    image: talknotesfront
